@@ -1,0 +1,29 @@
+/* src/app/styles/general.css */
+
+/* Style global pour toute la page */
+html, body {
+ text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  height: 100%;
+}
+
+/* Titres */
+h1, h2, h3, h4, h5 {
+    font-size: 35px;
+  font-weight: 600;
+  margin: 0 50 10px;
+  color: #222;
+}
+
+/* Liens */
+a {
+  text-decoration: none;
+  color: #1976d2;
+}
+a:hover {
+  text-decoration: underline;
+}

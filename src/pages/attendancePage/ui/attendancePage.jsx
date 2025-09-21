@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import AttendanceList from "../components/AttendanceList";
+import AttendanceList from "../../../widgets/attendance-list/ui/AttendanceList";
 
 export default function AttendancePage() {
   const { listId } = useParams();

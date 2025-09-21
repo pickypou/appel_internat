@@ -1,0 +1,40 @@
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-bottom: 45px;
+  margin-top: 70px;
+}
+
+/* Variante principale */
+.btn-primary {
+  background-color: #cfd219;
+  color: white;
+}
+.btn-primary:hover {
+  background-color: #b6b90c;
+   padding: 15px 25px
+;
+}
+
+/* Variante secondaire */
+.btn-secondary {
+  background-color: #ee4b4b;
+  color: #333;
+}
+.btn-secondary:hover {
+  background-color:#e90e0e;
+    padding: 15px 25px
+}
+
+
+.buttons-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
