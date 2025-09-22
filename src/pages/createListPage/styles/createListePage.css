@@ -1,0 +1,21 @@
+input {
+    border: 1px solid rgb(255, 23, 23);
+    padding: 9px;
+    margin: 15px 15px 15px 15px;
+    border-radius: 19px;
+    justify-content: center;
+    background-color: transparent;
+    width: 120px;
+    
+}
+
+.input-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;       /* espace entre les inputs */
+  align-items: center; /* aligne verticalement les inputs */
+}
+.input-wrapper input {
+  flex: 1 1 auto;   /* prend juste l'espace nécessaire et peut rétrécir si besoin */
+  min-width: 120px; /* largeur minimale */
+}

@@ -72,7 +72,10 @@ export default function StudentList() {
       </table>
 
      
-  <generatePdf students={students} />
+ <button onClick={() => generatePdf("Liste complète", students, "listAll")}>
+  Télécharger PDF
+</button>
+
     </div>
   );
   
